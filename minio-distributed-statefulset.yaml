@@ -26,8 +26,6 @@ spec:
         - server
         - http://minio-0.minio.default.svc.cluster.local/data
         - http://minio-1.minio.default.svc.cluster.local/data
-        - http://minio-2.minio.default.svc.cluster.local/data
-        - http://minio-3.minio.default.svc.cluster.local/data
         ports:
         - containerPort: 9000
         # These volume mounts are persistent. Each pod in the PetSet
